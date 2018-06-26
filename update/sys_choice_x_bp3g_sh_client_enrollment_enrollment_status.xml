@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enrollment_status" table="x_bp3g_sh_client_enrollment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enrollment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_enrollment</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 15:06:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26f3a536db961700e93a9c27db96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 15:06:36</sys_updated_on>
+            <value>Active</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enrollment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_enrollment</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 15:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26142df2db961700e93a9c27db9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 15:06:55</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enrollment_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terminated</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_enrollment</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 15:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d246936db961700e93a9c27db96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 15:07:08</sys_updated_on>
+            <value>Terminated</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enrollment_status</element>
+            <name>x_bp3g_sh_client_enrollment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 15:06:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8e04e536db961700e93a9c27db96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enrollment_status</sys_name>
+            <sys_package display_value="SH Client" source="x_bp3g_sh_client">9d0c6032db52570020b2fa9ebf961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Client">9d0c6032db52570020b2fa9ebf961978</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_sh_client_enrollment_enrollment_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 15:06:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

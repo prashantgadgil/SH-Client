@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Appt Details" section_id="a5cec176db16570020b2fa9ebf9619d5" sys_domain="global" table="x_bp3g_sh_client_appointment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appt_with</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:45</sys_created_on>
+            <sys_id>39ce0576db16570020b2fa9ebf961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appt Details" display_value="Appt Details" name="x_bp3g_sh_client_appointment" sys_domain="global" view="Default view">a5cec176db16570020b2fa9ebf9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:45</sys_created_on>
+            <sys_id>f5ce0576db16570020b2fa9ebf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appt Details" display_value="Appt Details" name="x_bp3g_sh_client_appointment" sys_domain="global" view="Default view">a5cec176db16570020b2fa9ebf9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:45</sys_created_on>
+            <sys_id>b5ce0576db16570020b2fa9ebf96192a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appt Details" display_value="Appt Details" name="x_bp3g_sh_client_appointment" sys_domain="global" view="Default view">a5cec176db16570020b2fa9ebf9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:45</sys_created_on>
+            <sys_id>75ce0576db16570020b2fa9ebf96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appt Details" display_value="Appt Details" name="x_bp3g_sh_client_appointment" sys_domain="global" view="Default view">a5cec176db16570020b2fa9ebf9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:45</sys_created_on>
+            <sys_id>35ce0576db16570020b2fa9ebf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Appt Details" display_value="Appt Details" name="x_bp3g_sh_client_appointment" sys_domain="global" view="Default view">a5cec176db16570020b2fa9ebf9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Appt Details</caption>
+            <header>false</header>
+            <name>x_bp3g_sh_client_appointment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 13:33:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5cec176db16570020b2fa9ebf9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Appt Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SH Client" source="x_bp3g_sh_client">9d0c6032db52570020b2fa9ebf961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Client">9d0c6032db52570020b2fa9ebf961978</sys_scope>
+            <sys_update_name>sys_ui_section_a5cec176db16570020b2fa9ebf9619d5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 13:33:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

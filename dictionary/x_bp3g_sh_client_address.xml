@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Address" max_length="40" name="x_bp3g_sh_client_address" type="collection">
+        <element label="Address Line 1" max_length="40" name="address_line_1" type="string"/>
+        <element label="Address Line 2" max_length="40" name="address_line_2" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" type="reference"/>
+        <element label="Country" max_length="32" name="country" reference="core_country" type="reference"/>
+        <element label="County" max_length="40" name="county" type="string"/>
+        <element label="Current" max_length="40" name="current" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="40" name="state" reference="x_bp3g_sh_administ_lookup" reference_qual="type=USState^EQ" reference_qual_condition="type=USState^EQ" type="reference"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+        <index name="index2">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

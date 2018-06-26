@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="offender" label="Offender" language="en" table="x_bp3g_sh_client_client">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>offender</element>
+            <help/>
+            <hint/>
+            <label>Offender</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_client</name>
+            <plural>Offenders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 10:11:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8eb62cdfdb221b40e93a9c27db96198f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Offender</sys_name>
+            <sys_package display_value="SH Client" source="x_bp3g_sh_client">9d0c6032db52570020b2fa9ebf961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Client">9d0c6032db52570020b2fa9ebf961978</sys_scope>
+            <sys_update_name>sys_documentation_x_bp3g_sh_client_client_offender_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 10:11:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="relationship" table="x_bp3g_sh_client_partner" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wife</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:34:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9653f47edb52570020b2fa9ebf961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:34:09</sys_updated_on>
+            <value>Wife</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Husband</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:34:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d973f83edb52570020b2fa9ebf9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:34:24</sys_updated_on>
+            <value>Husband</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Girlfriend</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:34:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e983387edb52570020b2fa9ebf9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:34:41</sys_updated_on>
+            <value>Girlfriend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Boy Friend</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:34:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c693b47edb52570020b2fa9ebf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:34:59</sys_updated_on>
+            <value>Boy Friend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ex-Wife</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:35:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01a3b87edb52570020b2fa9ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:35:12</sys_updated_on>
+            <value>Ex-Wife</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ex-Husband</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_partner</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:35:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a9b3f87edb52570020b2fa9ebf96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:35:30</sys_updated_on>
+            <value>Ex-Husband</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>relationship</element>
+            <name>x_bp3g_sh_client_partner</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 11:34:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7163307edb52570020b2fa9ebf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>relationship</sys_name>
+            <sys_package display_value="SH Client" source="x_bp3g_sh_client">9d0c6032db52570020b2fa9ebf961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Client">9d0c6032db52570020b2fa9ebf961978</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_sh_client_partner_relationship</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 11:34:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Appointment" max_length="40" name="x_bp3g_sh_client_appointment" sizeclass="1" type="collection">
+        <element choice="1" label="Appointment Status" max_length="40" name="appointment_status" type="choice">
+            <choice>
+                <element label="Scheduled" sequence="10" value="Scheduled"/>
+                <element label="Pending" sequence="20" value="Pending"/>
+                <element label="Completed" sequence="30" value="Completed"/>
+                <element label="No-Show" sequence="40" value="No-Show"/>
+            </choice>
+        </element>
+        <element label="Appt With" max_length="32" name="appt_with" reference="x_bp3g_sh_administ_sh_user" type="reference"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Program" max_length="32" name="program" reference="x_bp3g_sh_administ_program" type="reference"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+    </element>
+</database>

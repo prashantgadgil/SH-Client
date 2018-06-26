@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Enrollment" max_length="40" name="x_bp3g_sh_client_enrollment" sizeclass="2" type="collection">
+        <element label="Client" mandatory="true" max_length="32" name="client" reference="x_bp3g_sh_client_client" type="reference"/>
+        <element label="Client Case" max_length="32" name="client_case" reference="x_bp3g_sh_client_case" type="reference"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element choice="1" default="Active" label="Enrollment Status" max_length="40" name="enrollment_status" type="choice">
+            <choice>
+                <element label="Active" sequence="10" value="Active"/>
+                <element label="Completed" sequence="20" value="Completed"/>
+                <element label="Terminated" sequence="30" value="Terminated"/>
+            </choice>
+        </element>
+        <element label="PAIP Process" max_length="32" name="paip_process" reference="x_bp3g_sh_paip_paip_process" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Program" mandatory="true" max_length="32" name="program" reference="x_bp3g_sh_administ_program" type="reference"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Start Date" max_length="40" name="start_date" type="glide_date_time" use_dynamic_default="true"/>
+    </element>
+</database>

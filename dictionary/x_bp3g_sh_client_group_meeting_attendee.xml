@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Group Meeting Attendee" max_length="40" name="x_bp3g_sh_client_group_meeting_attendee" type="collection">
+        <element choice="1" default="Absent" label="Attendance" max_length="40" name="attendance" type="choice">
+            <choice>
+                <element label="Attended" sequence="0" value="Attended"/>
+                <element label="Absent" sequence="1" value="Absent"/>
+                <element label="Late" sequence="2" value="Late"/>
+                <element label="Arrived Late" sequence="50" value="Arrived Late"/>
+            </choice>
+        </element>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" type="reference"/>
+        <element label="Comment" max_length="400" name="comment" type="string"/>
+        <element label="Group Meeting" max_length="32" name="group_meeting" reference="x_bp3g_sh_client_group_meeting" reference_cascade_rule="delete" reference_floats="true" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Payment" max_length="20" name="payment" type="decimal"/>
+        <element choice="1" default="Open" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Open" sequence="10" value="Open"/>
+                <element label="Closed" sequence="20" value="Closed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="group_meeting"/>
+        </index>
+        <index name="index2">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

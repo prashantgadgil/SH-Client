@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="attendance" table="x_bp3g_sh_client_group_meeting_attendee" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attendance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attended</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_group_meeting_attendee</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 17:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ecd18e72db5a1700e93a9c27db961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 17:16:45</sys_updated_on>
+            <value>Attended</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attendance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Absent</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_group_meeting_attendee</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 17:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20d18e72db5a1700e93a9c27db961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 17:16:45</sys_updated_on>
+            <value>Absent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attendance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Late</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_group_meeting_attendee</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 17:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20d18e72db5a1700e93a9c27db96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 17:16:45</sys_updated_on>
+            <value>Late</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>attendance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arrived Late</label>
+            <language>en</language>
+            <name>x_bp3g_sh_client_group_meeting_attendee</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-10 03:51:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05acbce2db6e1740e93a9c27db961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-10 03:51:43</sys_updated_on>
+            <value>Arrived Late</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>attendance</element>
+            <name>x_bp3g_sh_client_group_meeting_attendee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 17:16:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6cd18e72db5a1700e93a9c27db961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>attendance</sys_name>
+            <sys_package display_value="SH Client" source="x_bp3g_sh_client">9d0c6032db52570020b2fa9ebf961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="SH Client">9d0c6032db52570020b2fa9ebf961978</sys_scope>
+            <sys_update_name>sys_choice_x_bp3g_sh_client_group_meeting_attendee_attendance</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 17:16:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

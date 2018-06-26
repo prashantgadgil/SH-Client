@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Relative" max_length="40" name="x_bp3g_sh_client_relative" type="collection">
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" type="reference"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element choice="1" label="Relationship to Client" max_length="40" name="relationship_to_client" type="choice">
+            <choice>
+                <element label="Friend" sequence="10" value="Friend"/>
+                <element label="Mother" sequence="20" value="Mother"/>
+                <element label="Father" sequence="30" value="Father"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

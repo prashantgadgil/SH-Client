@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Incident" max_length="40" name="x_bp3g_sh_client_incident" type="collection">
+        <element label="Abuse Type" max_length="40" name="abuse_type" type="string"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" type="reference"/>
+        <element label="Incident Date" max_length="40" name="incident_date" type="glide_date"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Physical Impact" max_length="40" name="physical_impact" type="string"/>
+        <element label="Weapon Used" max_length="40" name="weapon_used" type="string"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

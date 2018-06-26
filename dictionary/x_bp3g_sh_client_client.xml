@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="hasLabels=true" extends="task" label="Client" max_length="40" name="x_bp3g_sh_client_client" sizeclass="3" type="collection">
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element default="Uneducated" label="Education" max_length="32" name="education" reference="x_bp3g_sh_administ_lookup" reference_qual="type=Education^EQ" reference_qual_condition="type=Education^EQ" type="reference"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element display="true" label="Full Name" max_length="40" name="full_name" type="string"/>
+        <element default="Female" label="Gender" max_length="32" name="gender" reference="x_bp3g_sh_administ_lookup" reference_qual="type=Gender^EQ" reference_qual_condition="type=Gender^EQ" type="reference"/>
+        <element label="Income Sources" max_length="4000" name="income_sources" reference="x_bp3g_sh_administ_lookup" reference_qual="type=IncomeSource^EQ" reference_qual_condition="type=IncomeSource^EQ" type="glide_list"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
+        <element label="Offender" max_length="40" name="offender" type="boolean"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element choice="1" label="SH Status" max_length="40" name="sh_status" type="choice">
+            <choice>
+                <element label="Prospect" sequence="10" value="Prospect"/>
+                <element label="Customer" sequence="20" value="Customer"/>
+            </choice>
+        </element>
+        <element label="SSN" max_length="40" name="ssn" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Children" max_length="40" name="x_bp3g_sh_client_child" sizeclass="2" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" type="reference"/>
+        <element label="DOB" max_length="40" name="dob" type="glide_date"/>
+        <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element choice="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element label="Male" sequence="10" value="Male"/>
+                <element label="Female" sequence="20" value="Female"/>
+            </choice>
+        </element>
+    </element>
+</database>

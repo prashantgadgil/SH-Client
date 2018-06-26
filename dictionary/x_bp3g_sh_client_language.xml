@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Language" max_length="40" name="x_bp3g_sh_client_language" type="collection">
+        <element label="Can Read" max_length="40" name="can_read" type="boolean"/>
+        <element label="Can Speak" max_length="40" name="can_speak" type="boolean"/>
+        <element label="Can Write" max_length="40" name="can_write" type="boolean"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_sh_client_client" reference_cascade_rule="delete" reference_floats="true" type="reference"/>
+        <element label="Language" max_length="32" name="language" reference="x_bp3g_sh_administ_lookup" reference_qual="type=Language^EQ" reference_qual_condition="type=Language^EQ" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+        <index name="index2">
+            <element name="language"/>
+        </index>
+    </element>
+</database>
